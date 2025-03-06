@@ -68,14 +68,6 @@ Femora is a comprehensive women's health and wellness platform designed to empow
 - Clean and professional layout
 - Accessibility features
 
-### 8. Privacy & Security
-- Secure data encryption
-- Private user accounts
-- Data backup options
-- GDPR compliance
-- Customizable privacy settings
-- Secure data sharing options
-
 ## Technical Stack
 
 ### Frontend
@@ -154,8 +146,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 For any queries or suggestions, please reach out to:
-- Email: [your-email@example.com]
-- Website: [your-website.com]
+- Email: [FemoraSendsLove@gmail.com]
 
 ---
 Made with ❤️ for women's health and wellness 
