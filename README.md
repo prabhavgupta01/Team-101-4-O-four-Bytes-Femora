@@ -1,31 +1,80 @@
 # Femora - Women's Health & Wellness Platform
 
 ## Overview
-Femora is a comprehensive women's health and wellness platform designed to provide accessible, reliable information about various aspects of women's health. The platform features an intuitive interface with interactive cards and informative content about essential health topics.
+Femora is a comprehensive women's health and wellness platform designed to empower women with knowledge, tracking tools, and personalized health management features. Our platform combines modern technology with medical expertise to provide a complete health companion for women.
 
 ## Features
 
-### 1. Health Insights Dashboard
+### 1. Dashboard
+- Personalized health overview
+- Quick access to all features
+- Recent activity tracking
+- Customizable widgets
+- Health reminders and notifications
+
+### 2. Period Tracking
+- Menstrual cycle calendar
+- Symptom logging and analysis
+- Mood tracking
+- Flow intensity recording
+- Cycle predictions and insights
+- Customizable cycle lengths
+- Ovulation tracking
+
+### 3. Health Insights
 - Interactive topic selection with animated buttons
-- Six major health topics covered:
+- Comprehensive women's health topics:
   - Vaginal Discharge
   - Vaginal Odour
   - Menstrual Cycle
   - Hormonal Health
   - Endometriosis
   - Menopause/Perimenopause
+- Interactive flip cards with medical information
+- Auto-flip feature for better engagement
+- High-quality medical images
 
-### 2. Interactive Content Cards
-- Flip-card interface for engaging user experience
-- Automatic card flip-back feature (4-second display)
-- Smooth animations and transitions
-- High-quality medical images with informative descriptions
+### 4. Symptom Tracker
+- Comprehensive symptom logging
+- Customizable symptom categories
+- Severity tracking
+- Duration recording
+- Pattern identification
+- Export health data
 
-### 3. User Interface
-- Responsive design for all device sizes
-- Elegant color schemes with gradient effects
+### 5. Health Metrics
+- Weight tracking
+- Blood pressure monitoring
+- Temperature logging
+- Sleep pattern analysis
+- Exercise tracking
+- Medication reminders
+- Custom metric tracking
+
+### 6. Reports & Analytics
+- Monthly health summaries
+- Cycle analysis reports
+- Symptom correlation insights
+- Exportable health data
+- Visual data representations
+- Trend analysis
+
+### 7. User Interface Features
+- Responsive design for all devices
+- Dark/Light mode options
+- Elegant gradient effects
+- Smooth animations
 - Intuitive navigation
 - Clean and professional layout
+- Accessibility features
+
+### 8. Privacy & Security
+- Secure data encryption
+- Private user accounts
+- Data backup options
+- GDPR compliance
+- Customizable privacy settings
+- Secure data sharing options
 
 ## Technical Stack
 
@@ -34,12 +83,16 @@ Femora is a comprehensive women's health and wellness platform designed to provi
 - Material-UI (MUI)
 - Framer Motion for animations
 - Custom CSS with gradient effects
+- Chart.js for analytics
 
 ### Key Dependencies
 - @mui/material
 - @mui/icons-material
 - framer-motion
 - react-router-dom
+- chart.js
+- date-fns
+- axios
 
 ## Setup Instructions
 
@@ -68,9 +121,15 @@ femora/
 ├── frontend/
 │   ├── src/
 │   │   ├── pages/
-│   │   │   └── Insights.js
+│   │   │   ├── Dashboard.js
+│   │   │   ├── Insights.js
+│   │   │   ├── PeriodTracker.js
+│   │   │   ├── SymptomTracker.js
+│   │   │   └── Reports.js
 │   │   ├── components/
 │   │   ├── assets/
+│   │   ├── utils/
+│   │   ├── contexts/
 │   │   └── App.js
 │   ├── public/
 │   └── package.json
